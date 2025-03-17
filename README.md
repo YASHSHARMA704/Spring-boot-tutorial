@@ -59,3 +59,46 @@ Ensure you have the following installed:
     ```bash
     cd Spring-boot-tutorial
 
+3. **Build the Project**:
+
+   ```bash
+   mvn clean install
+
+### Usage
+
+1. **Run the Application**:
+   ```bash
+   mvn spring-boot:run
+
+2. **Access the Application**
+   Open your browser and navigate to http://localhost:8080.
+
+## Topics Covered
+
+
+| **Topic**                      | **Description** |
+|--------------------------------|------------------------------------------------------|
+| **Spring Boot Basics**         | Introduction, setup, and overview of Spring Boot. |
+| **Dependency Injection**       | Understanding and implementing dependency injection. |
+| **Spring Initializr**          | Generating a Spring Boot project using Spring Initializr. |
+| **IDE Setup**                  | Using IntelliJ IDEA and VS Code for Spring Boot development. |
+| **Spring Boot Starters**       | Exploring different Spring Boot starters and their uses. |
+| **Creating a Simple API**      | Building a basic REST API using Spring Boot. |
+| **Running a Spring Boot App**  | Methods to run and manage Spring Boot applications. |
+| **Spring Boot DevTools**       | Using DevTools for fast application reloads during development. |
+| **Application Architecture**   | Understanding the structure and components of a Spring Boot application. |
+| **Database Integration**       | Working with H2 and MySQL databases. |
+| **Spring Boot Components**     | Creating controllers, services, and repositories. |
+| **CRUD Operations**            | Implementing Create, Read, Update, and Delete operations in a database. |
+| **Testing APIs**               | Using REST clients like Postman and MySQL to test APIs. |
+| **Spring Data JPA**            | Using Spring Data JPA to interact with the database. |
+| **Hibernate Validation**       | Adding validation for request data. |
+| **Logging**                    | Implementing loggers in Spring Boot applications. |
+| **Lombok**                     | Reducing boilerplate code using Project Lombok. |
+| **Exception Handling**         | Implementing global exception handling in Spring Boot. |
+| **Unit & Integration Testing** | Writing tests for Service, Repository, and Controller layers. |
+| **Configuration Management**   | Managing application properties and profiles. |
+| **Spring Boot Actuator**       | Monitoring and managing applications using Actuator. |
+
+
+
