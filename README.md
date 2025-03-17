@@ -18,9 +18,6 @@ This repository serves as a comprehensive tutorial for building applications usi
 - [Usage](#usage)
 - [Topics Covered](#topics-covered)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Features
 
@@ -47,6 +44,32 @@ Ensure you have the following installed:
 - [Maven](https://maven.apache.org/install.html)
 - [Git](https://git-scm.com/)
 
+### Installation
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/YASHSHARMA704/Spring-boot-tutorial.git
+
+2. **Navigate to the Project Directory**:
+
+    ```bash
+    cd Spring-boot-tutorial
+
+3. **Build the Project**:
+
+   ```bash
+   mvn clean install
+
+## Usage
+
+1. **Run the Application**:
+   ```bash
+   mvn spring-boot:run
+
+2. **Access the Application**
+   Open your browser and navigate to http://localhost:8080.
+   
 
 ## Topics Covered
 
@@ -129,29 +152,4 @@ Spring-boot-tutorial/
 
 ```
 
-### Installation
-
-1. **Clone the Repository**:
-
-   ```bash
-   git clone https://github.com/YASHSHARMA704/Spring-boot-tutorial.git
-
-2. **Navigate to the Project Directory**:
-
-    ```bash
-    cd Spring-boot-tutorial
-
-3. **Build the Project**:
-
-   ```bash
-   mvn clean install
-
-### Usage
-
-1. **Run the Application**:
-   ```bash
-   mvn spring-boot:run
-
-2. **Access the Application**
-   Open your browser and navigate to http://localhost:8080.
 
