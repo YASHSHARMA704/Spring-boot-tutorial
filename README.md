@@ -47,31 +47,6 @@ Ensure you have the following installed:
 - [Maven](https://maven.apache.org/install.html)
 - [Git](https://git-scm.com/)
 
-### Installation
-
-1. **Clone the Repository**:
-
-   ```bash
-   git clone https://github.com/YASHSHARMA704/Spring-boot-tutorial.git
-
-2. **Navigate to the Project Directory**:
-
-    ```bash
-    cd Spring-boot-tutorial
-
-3. **Build the Project**:
-
-   ```bash
-   mvn clean install
-
-### Usage
-
-1. **Run the Application**:
-   ```bash
-   mvn spring-boot:run
-
-2. **Access the Application**
-   Open your browser and navigate to http://localhost:8080.
 
 ## Topics Covered
 
@@ -101,4 +76,80 @@ Ensure you have the following installed:
 | **Spring Boot Actuator**       | Monitoring and managing applications using Actuator. |
 
 
+## 📂 Project Structure
+
+The project follows a well-structured **Spring Boot** architecture:
+
+```plaintext
+Spring-boot-tutorial/
+├── .mvn/
+│   └── wrapper/
+│       ├── maven-wrapper.jar
+│       └── maven-wrapper.properties
+├── src/
+│   ├── main/
+│   │   ├── java/com/learning/Springboottutorial/
+│   │   │   ├── SpringBootTutorialApplication.java
+│   │   │   ├── config/
+│   │   │   │   └── FeatureEndpoint.java
+│   │   │   ├── controller/
+│   │   │   │   ├── DepartmentController.java
+│   │   │   │   └── HelloController.java
+│   │   │   ├── entity/
+│   │   │   │   ├── Department.java
+│   │   │   │   └── ErrorMessage.java
+│   │   │   ├── error/
+│   │   │   │   ├── DepartmentNotFoundException.java
+│   │   │   │   └── RestResponseEntityExceptionHandler.java
+│   │   │   ├── repository/
+│   │   │   │   └── DepartmentRepository.java
+│   │   │   ├── services/
+│   │   │   │   ├── DepartmentService.java
+│   │   │   │   └── DepartmentServiceImpl.java
+│   │   └── resources/
+│   │       ├── application.yml
+│   │       ├── data.sql
+│   │       ├── logback.xml
+│   └── test/
+│       ├── java/com/learning/Springboottutorial/
+│       │   ├── SpringBootTutorialApplicationTests.java
+│       │   ├── controller/
+│       │   │   └── DepartmentControllerTest.java
+│       │   ├── repository/
+│       │   │   └── DepartmentRepositoryTest.java
+│       │   ├── services/
+│       │   │   └── DepartmentServiceTest.java
+├── .gitattributes
+├── .gitignore
+├── README.md
+├── mvnw
+├── mvnw.cmd
+└── pom.xml
+
+
+### Installation
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/YASHSHARMA704/Spring-boot-tutorial.git
+
+2. **Navigate to the Project Directory**:
+
+    ```bash
+    cd Spring-boot-tutorial
+
+3. **Build the Project**:
+
+   ```bash
+   mvn clean install
+
+### Usage
+
+1. **Run the Application**:
+   ```bash
+   mvn spring-boot:run
+
+2. **Access the Application**
+   Open your browser and navigate to http://localhost:8080.
 
