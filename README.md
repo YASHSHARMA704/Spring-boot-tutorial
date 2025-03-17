@@ -53,3 +53,9 @@ Ensure you have the following installed:
 
    ```bash
    git clone https://github.com/YASHSHARMA704/Spring-boot-tutorial.git
+
+2. **Navigate to the Project Directory**:
+
+    ```bash
+    cd Spring-boot-tutorial
+
