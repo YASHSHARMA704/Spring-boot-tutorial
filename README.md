@@ -100,7 +100,7 @@ Ensure you have the following installed:
 
 
 
-## 📂 Project Structure
+##  Project Structure
 
 The project follows a well-structured **Spring Boot** architecture:
 
