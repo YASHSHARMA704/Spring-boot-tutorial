@@ -76,6 +76,7 @@ Ensure you have the following installed:
 | **Spring Boot Actuator**       | Monitoring and managing applications using Actuator. |
 
 
+
 ## 📂 Project Structure
 
 The project follows a well-structured **Spring Boot** architecture:
@@ -126,6 +127,7 @@ Spring-boot-tutorial/
 ├── mvnw.cmd
 └── pom.xml
 
+```
 
 ### Installation
 
