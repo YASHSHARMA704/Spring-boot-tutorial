@@ -1,0 +1,76 @@
+server:
+  port: 8082
+
+spring:
+  profiles:
+    active: prod  # Default active profile
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: dev
+  application:
+    name: Spring-boot-tutorial
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboottutorial
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+welcome:
+  message: "Welcome to the project in DEV environment...."
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: qa
+  application:
+    name: Spring-boot-tutorial
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboottutorial-qa
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+welcome:
+  message: "Welcome to the project in QA environment...."
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: prod
+  application:
+    name: Spring-boot-tutorial
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboottutorial-prod
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        exclude: "env,info,beans"
+
+welcome:
+  message: "Welcome to the project in PROD environment...."
